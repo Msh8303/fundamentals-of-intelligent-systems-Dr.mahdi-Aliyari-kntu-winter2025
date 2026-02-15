@@ -23,9 +23,7 @@
   - [2. Fuzzy Logic Controller](#2-fuzzy-logic-controller)
   - [3. Reinforcement Learning (Q-Learning)](#3-reinforcement-learning-q-learning)
 - [Experimental Results](#-experimental-results)
-- [Installation & Usage](#-installation--usage)
-- [Project Structure](#-project-structure)
-- [Contributors](#-contributors)
+
 
 ---
 
@@ -78,9 +76,6 @@ We enhanced the YOLOv8-Nano architecture to handle the specific challenges of st
 * **Neck:** `GAM` (Global Attention Mechanism) to capture both channel and spatial information.
 * **Head:** `PIoU v2 Loss` for better localization of high-aspect-ratio defects.
 
-<div align="center">
-  <img src="assets/yolo_structure.png" alt="YOLO Improvement" width="70%">
-</div>
 
 ### 2. Fuzzy Logic Controller
 A Mamdani inference system with **9 Rules** acts as a safety supervisor.
@@ -106,14 +101,7 @@ Our improved model outperforms the baseline YOLOv8n and YOLOv11m in balancing sp
 | YOLOv11m | 65.1% | 12.8 ms | 20.1 M |
 | **YOLOv8n-Imp (Ours)** | **67.7%** | 5.3 ms | **3.5 M** |
 
-### Control System Performance
-The graph below demonstrates the closed-loop behavior. The system maintains max speed (1.0) when risk is zero and brakes to minimum speed (0.1) when defect clusters appear.
 
-<div align="center">
-  <img src="assets/speed_analysis.png" alt="Control System Performance" width="90%">
-  <br>
-  <em>Figure 2: Real-time correlation between Defect Risk (Red) and Conveyor Speed (Blue).</em>
-</div>
 
 ---
 
