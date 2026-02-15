@@ -19,14 +19,15 @@ These projects were developed in collaboration with:
 
 - **Mohammad Amin Shabestari** ([GitHub](https://github.com/msh8303))  
 - **Mohammad Sobhan Sakhaei** ([GitHub](https://github.com/sobhanskh))
+- **Mobina Yousefi Moghadam**  ([GitHub](https://github.com/mobinamqdm))
 
 ## Projects Overview
 
 | Project | Question PDF | Answer PDF | Related Paper |
 |:--|:--|:--|:--|
-| Proj1-kntu | [question-project1.pdf](proj1_kntu/question-project1.pdf) | [answer-project1.pdf](proj1_kntu/answer-project1.pdf) | [Housing-Price-Prediction-via-Improved-Machine-Learning.pdf](proj1_kntu/Housing-Price-Prediction-via-Improved-Machine-Learning.pdf) |
-| Proj2-kntu | [question-project2.pdf](proj2_kntu/question-project2.pdf) | _TBD_ | _TBD_ |
-| Proj3-kntu | [question-project3.pdf](proj3_kntu/question-project3.pdf) | _TBD_ | _TBD_ |
+| Proj1-kntu | [question-project1.pdf](proj1_kntu/question-project1.pdf) | 
+| Proj2-kntu | [question-project2.pdf](proj2_kntu/question-project2.pdf) |
+| Proj3-kntu | [question-project3.pdf](proj3_kntu/question-project3.pdf) | 
 
 ---
 
