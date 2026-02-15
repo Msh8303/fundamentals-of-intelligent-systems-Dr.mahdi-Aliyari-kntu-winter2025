@@ -117,49 +117,6 @@ The graph below demonstrates the closed-loop behavior. The system maintains max 
 
 ---
 
-## 💻 Installation & Usage
-
-### Prerequisites
-* Python 3.9+
-* PyTorch (CUDA recommended)
-* Ultralytics YOLO
-
-### Steps
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/hybrid-steel-defect-detection.git](https://github.com/your-username/hybrid-steel-defect-detection.git)
-    cd hybrid-steel-defect-detection
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the Training (YOLO):**
-    ```bash
-    python train_yolo.py --epochs 100 --batch 16
-    ```
-
-4.  **Run the Simulation (RL + Fuzzy):**
-    ```bash
-    python run_simulation.py --mode train
-    ```
-
----
-
-## 📂 Project Structure
-
-```plaintext
-├── assets/                  # Images for README
-├── config/                  # Configuration files
-├── data/                    # NEU-DET Dataset scripts
-├── models/
-│   ├── yolo_improved.py     # Custom YOLO architecture
-│   ├── fuzzy_logic.py       # Fuzzy inference system
-│   └── rl_agent.py          # Q-Learning agent
-├── train_yolo.py            # Training script for vision
 ├── run_simulation.py        # Main control loop
 ├── requirements.txt         # Dependencies
 └── README.md
